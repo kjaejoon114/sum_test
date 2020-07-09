@@ -2,26 +2,14 @@
 
 int sum(int n){
 
-	int sum = 0;
-
-
+	int result = 0;
 
 	for(int i =1 ;i <= n; i++){
 
-
-
-
-	sum += i;
-
-
-
+	result += i;
 
 	}
 
-
-
-
-	 
-
+	return result;
 }
 
